@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Drugstore.Models
 {
-    public class FormViewModel
+    public class MedicinalSubstanceViewModel
     {
         public int Id { get; set; }
         public string Name { get; set; }
