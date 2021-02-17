@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Drugstore.Domain.Models
 {
-    public class FormModel
+    public class MedicinalSubstanceModel
     {
         public int Id { get; set; }
         public string Name { get; set; }
