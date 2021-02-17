@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jJVvsSrTLR5/AvAD/XuPgbkB26HKcb2usroZEx0YpCdkkxUu384Dy6S+zsDp2ZTZeelBqL7J3CR5wVo8DjOqYQ==",
+  "success": true,
+  "projectFilePath": "E:\\Learning\\Программирование\\Обучение. А_Level\\Homework\\HW27\\Drugstore.Data\\Drugstore.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ortof\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\ortof\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512"
+  ],
+  "logs": []
+}

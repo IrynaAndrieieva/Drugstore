@@ -1,0 +1,11 @@
+E:\Learning\Программирование\Обучение. А_Level\Homework\HW27\Drugstore.Domain\bin\Debug\Drugstore.Domain.dll
+E:\Learning\Программирование\Обучение. А_Level\Homework\HW27\Drugstore.Domain\bin\Debug\Drugstore.Domain.pdb
+E:\Learning\Программирование\Обучение. А_Level\Homework\HW27\Drugstore.Domain\bin\Debug\Drugstore.Data.dll
+E:\Learning\Программирование\Обучение. А_Level\Homework\HW27\Drugstore.Domain\bin\Debug\EntityFramework.dll
+E:\Learning\Программирование\Обучение. А_Level\Homework\HW27\Drugstore.Domain\bin\Debug\Dapper.dll
+E:\Learning\Программирование\Обучение. А_Level\Homework\HW27\Drugstore.Domain\bin\Debug\Drugstore.Data.pdb
+E:\Learning\Программирование\Обучение. А_Level\Homework\HW27\Drugstore.Domain\obj\Debug\Drugstore.Domain.csprojAssemblyReference.cache
+E:\Learning\Программирование\Обучение. А_Level\Homework\HW27\Drugstore.Domain\obj\Debug\Drugstore.Domain.csproj.CoreCompileInputs.cache
+E:\Learning\Программирование\Обучение. А_Level\Homework\HW27\Drugstore.Domain\obj\Debug\Drugstore.Domain.csproj.CopyComplete
+E:\Learning\Программирование\Обучение. А_Level\Homework\HW27\Drugstore.Domain\obj\Debug\Drugstore.Domain.dll
+E:\Learning\Программирование\Обучение. А_Level\Homework\HW27\Drugstore.Domain\obj\Debug\Drugstore.Domain.pdb
