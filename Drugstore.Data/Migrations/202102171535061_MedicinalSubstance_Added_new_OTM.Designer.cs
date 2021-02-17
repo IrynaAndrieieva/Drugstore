@@ -7,13 +7,13 @@ namespace Drugstore.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class Forms_Drugs_OTM : IMigrationMetadata
+    public sealed partial class MedicinalSubstance_Added_new_OTM : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Forms_Drugs_OTM));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(MedicinalSubstance_Added_new_OTM));
         
         string IMigrationMetadata.Id
         {
-            get { return "202102171125394_Forms_Drugs_OTM"; }
+            get { return "202102171535061_MedicinalSubstance_Added_new_OTM"; }
         }
         
         string IMigrationMetadata.Source
