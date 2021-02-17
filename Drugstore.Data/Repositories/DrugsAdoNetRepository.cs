@@ -13,10 +13,10 @@ namespace Drugstore.Data.Repositories
         {
             using (SqlConnection connection = new SqlConnection(CONNECTION_STRING))
             {
-                var queryString = "INSERT INTO Drugs(Name,MedicinalSubstance,FormId) OUTPUT INSERTED.id VALUES(@Name,@MedicinalSubstance,@FormId)";
+                var queryString = "INSERT INTO Drugs(Name,MedicinalSubstanceId,FormId) OUTPUT INSERTED.id VALUES(@Name,@MedicinalSubstanceId,@FormId)";
                 SqlCommand command = new SqlCommand(queryString, connection);
                 command.Parameters.AddWithValue("@Name", model.Name);
-                command.Parameters.AddWithValue("@MedicinalSubstance", model.MedicinalSubstance);
+                command.Parameters.AddWithValue("@MedicinalSubstanceId", model.MedicinalSubstanceId);
                 command.Parameters.AddWithValue("@FormId", model.FormId);
 
 
@@ -49,7 +49,7 @@ namespace Drugstore.Data.Repositories
                     {
                         Id = reader.GetInt32(0),
                         Name = reader.GetString(1),
-                        MedicinalSubstance = reader.GetString(2),
+                        MedicinalSubstanceId = reader.GetInt32(2),
                         FormId = reader.GetInt32(3)
                     });
                 }

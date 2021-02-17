@@ -1,12 +1,7 @@
-﻿using Drugstore.Data;
-using Drugstore.Domain;
+﻿using Drugstore.Domain;
 using Drugstore.Domain.Services.Interfaces;
 using Drugstore.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Drugstore.Controllers
 {
@@ -30,7 +25,7 @@ namespace Drugstore.Controllers
                 {
                     Id = drug.Id,
                     Name = drug.Name,
-                    MedicinalSubstance = drug.MedicinalSubstance,
+                    MedicinalSubstance = drug.MedicinalSubstance.Name,
                     Form = drug.Form.Name,
                     Indifferent = "Unknown"
                 });
@@ -44,7 +39,7 @@ namespace Drugstore.Controllers
             var drugModel = new DrugModel
             {
                 Name = model.Name,
-                MedicinalSubstance = model.MedicinalSubstance,
+                MedicinalSubstanceId = model.MedicinalSubstanceId,
                 FormId = model.FormId
             };
 
@@ -54,7 +49,7 @@ namespace Drugstore.Controllers
             {
                 Id = createResult.Id,
                 Name = createResult.Name,
-                MedicinalSubstance = createResult.MedicinalSubstance,
+                MedicinalSubstance = "Unknow",
                 Form = "Unknown"
             };
 

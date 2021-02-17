@@ -23,7 +23,7 @@ namespace Drugstore.Domain.Services
             var drug = new Drug
             {
                 Name = model.Name,
-                MedicinalSubstance = model.MedicinalSubstance,
+                MedicinalSubstanceId = model.MedicinalSubstanceId,
                 FormId = model.FormId
             };
             _drugsRepository.Create(drug);
@@ -44,7 +44,7 @@ namespace Drugstore.Domain.Services
                 {
                     Id = drug.Id,
                     Name = drug.Name,
-                    MedicinalSubstance = drug.MedicinalSubstance,
+                    MedicinalSubstanceId = drug.MedicinalSubstanceId,
                     FormId = drug.FormId
 
                 });

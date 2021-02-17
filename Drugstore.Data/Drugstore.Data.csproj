@@ -53,7 +53,12 @@
     <Compile Include="Migrations\202102171311222_Forms_Drugs_OTM_FluentApi.designer.cs">
       <DependentUpon>202102171311222_Forms_Drugs_OTM_FluentApi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202102171535061_MedicinalSubstance_Added_new_OTM.cs" />
+    <Compile Include="Migrations\202102171535061_MedicinalSubstance_Added_new_OTM.designer.cs">
+      <DependentUpon>202102171535061_MedicinalSubstance_Added_new_OTM.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\MedicinalSubstance.cs" />
     <Compile Include="PharmacyContext.cs" />
     <Compile Include="Models\Form.cs" />
     <Compile Include="Models\Drug.cs" />
@@ -81,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202102171311222_Forms_Drugs_OTM_FluentApi.resx">
       <DependentUpon>202102171311222_Forms_Drugs_OTM_FluentApi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102171535061_MedicinalSubstance_Added_new_OTM.resx">
+      <DependentUpon>202102171535061_MedicinalSubstance_Added_new_OTM.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

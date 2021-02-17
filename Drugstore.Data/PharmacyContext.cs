@@ -26,6 +26,13 @@ namespace Drugstore.Data
                 .HasMany(x => x.Drugs)
                 .WithRequired(x => x.Form)
                 .HasForeignKey(x => x.FormId);
+
+            //relationship one to many betwen MedicinalSubstance and Drug
+
+            modelBuilder.Entity<MedicinalSubstance>()
+                .HasMany(x => x.Drugs)
+                .WithRequired(x => x.MedicinalSubstance)
+                .HasForeignKey(x => x.MedicinalSubstanceId);
         }
     }
 }

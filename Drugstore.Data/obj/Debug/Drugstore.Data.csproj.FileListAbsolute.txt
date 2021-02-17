@@ -12,3 +12,4 @@ E:\Learning\Программирование\Обучение. А_Level\Homework
 E:\Learning\Программирование\Обучение. А_Level\Homework\HW27\Drugstore.Data\obj\Debug\Drugstore.Data.csproj.GenerateResource.cache
 E:\Learning\Программирование\Обучение. А_Level\Homework\HW27\Drugstore.Data\obj\Debug\Drugstore.Data.Migrations.Forms_Drugs_OTM.resources
 E:\Learning\Программирование\Обучение. А_Level\Homework\HW27\Drugstore.Data\obj\Debug\Drugstore.Data.Migrations.Forms_Drugs_OTM_FluentApi.resources
+E:\Learning\Программирование\Обучение. А_Level\Homework\HW27\Drugstore.Data\obj\Debug\Drugstore.Data.Migrations.MedicinalSubstance_Added_new_OTM.resources

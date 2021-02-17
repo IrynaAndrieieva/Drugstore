@@ -14,7 +14,7 @@ namespace Drugstore.Data.Repositories
         {
             using (SqlConnection connection = new SqlConnection(CONNECTION_STRING))
             {
-                var queryString = $"INSERT INTO Drugs(Name,MedicinalSubstance,FormId) OUTPUT INSERTED.id VALUES(\'{model.Name}\',\'{model.MedicinalSubstance}\',{model.FormId})";
+                var queryString = $"INSERT INTO Drugs(Name,MedicinalSubstanceId,FormId) OUTPUT INSERTED.id VALUES(\'{model.Name}\',\'{model.MedicinalSubstanceId}\',{model.FormId})";
 
                 var insetredId = connection.ExecuteScalar(queryString);
                 var insetredIdInt = Convert.ToInt32(insetredId);

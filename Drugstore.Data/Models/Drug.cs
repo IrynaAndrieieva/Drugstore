@@ -11,7 +11,9 @@ namespace Drugstore.Data
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string MedicinalSubstance { get; set; }
+
+        public int MedicinalSubstanceId { get; set; }
+        public virtual MedicinalSubstance MedicinalSubstance { get; set; }
 
         public int FormId { get; set; } // отделенные 
         public virtual Form Form { get; set; } // внешние ключи

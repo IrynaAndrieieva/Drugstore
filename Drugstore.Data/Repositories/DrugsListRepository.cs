@@ -21,7 +21,7 @@ namespace Drugstore.Data.Repositories
                 {
                     Id = i,
                     Name = $"Name_{i}",
-                    MedicinalSubstance = "MedicinalSubstance_{i}",
+                    MedicinalSubstanceId = i + 1,
                     FormId = i + 1,
                 });
             }

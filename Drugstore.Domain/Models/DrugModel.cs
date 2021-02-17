@@ -11,9 +11,11 @@ namespace Drugstore.Domain
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string MedicinalSubstance { get; set; }
+        public int MedicinalSubstanceId { get; set; }
         public int FormId { get; set; }
 
         public FormModel Form { get; set; }
+
+        public MedicinalSubstanceModel MedicinalSubstance { get; set; }
     }
 }

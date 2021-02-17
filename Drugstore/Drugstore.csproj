@@ -45,6 +45,7 @@
     <Compile Include="Models\FormViewModel.cs" />
     <Compile Include="Models\DrugViewModel.cs" />
     <Compile Include="Models\DrugPostModel.cs" />
+    <Compile Include="Models\MedicinalSubstanceViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
