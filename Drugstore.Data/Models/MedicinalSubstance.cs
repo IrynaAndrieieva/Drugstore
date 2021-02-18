@@ -12,5 +12,8 @@ namespace Drugstore.Data.Models
         public string Name { get; set; }
 
         public virtual ICollection<Drug> Drugs { get; set; }
+
+        public int WarehouseId { get; set; }
+        public virtual Warehouse Warehouse { get; set; }
     }
 }

@@ -16,7 +16,7 @@
                     })
                 .PrimaryKey(t => t.Id);
             
-            AddColumn("dbo.Drugs", "MedicinalSubstanceId", c => c.Int(nullable: false));
+            AddColumn("dbo.Drugs", "MedicinalSubstanceId", c => c.Int(nullable: true, identity: false));
             CreateIndex("dbo.Drugs", "MedicinalSubstanceId");
             AddForeignKey("dbo.Drugs", "MedicinalSubstanceId", "dbo.MedicinalSubstances", "Id", cascadeDelete: true);
             DropColumn("dbo.Drugs", "MedicinalSubstance");
