@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Drugstore.Domain.Services.Interfaces
 {
-    public interface IDrugService
+    public interface IPrecursorService
     {
-        IEnumerable<DrugModel> GetAll();
-        DrugModel Create(DrugModel model);
+        void AddPrecursorToDrug(int druglId, int precursorId, int countInRecipe);
     }
 }
