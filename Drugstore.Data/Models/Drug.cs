@@ -18,5 +18,7 @@ namespace Drugstore.Data
         public int FormId { get; set; } // отделенные 
         public virtual Form Form { get; set; } // внешние ключи
 
+        public virtual ICollection<Precursor> Precursor { get; set; }
     }
+        
 }
