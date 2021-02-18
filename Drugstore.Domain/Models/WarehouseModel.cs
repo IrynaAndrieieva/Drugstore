@@ -14,7 +14,5 @@ namespace Drugstore.Domain.Models
 
         public int MedicinalSubstanceId { get; set; }
         public MedicinalSubstanceModel MedicinalSubstance { get; set; }
-
-
     }
 }
